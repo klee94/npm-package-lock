@@ -4,7 +4,6 @@ node_js:
   - "6"
 before_script:
 - npm config set package-lock false
-- npm install
   
 after_success:
 #- bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
